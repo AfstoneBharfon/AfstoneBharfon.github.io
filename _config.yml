@@ -1,0 +1,41 @@
+# =============================================
+# Site Settings — Edit these!
+# =============================================
+title:          "Your Name blog"
+description:    "Musings of a Software Engineer."
+url:            "https://yourusername.github.io"
+baseurl:        ""
+author:         "Your Name"
+email:          "you@example.com"
+
+# Social handles (leave blank to hide)
+github_username:    yourusername
+twitter_username:   yourusername
+
+# =============================================
+# Jekyll Build Settings
+# =============================================
+markdown:       kramdown
+highlighter:    rouge
+permalink:      /:year/:month/:day/:title/
+
+kramdown:
+  input:        GFM
+  syntax_highlighter: rouge
+
+# =============================================
+# Plugins (all supported by GitHub Pages)
+# =============================================
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# =============================================
+# Exclude from build
+# =============================================
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
