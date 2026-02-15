@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Komla Afoutou - About 
+title: About 
 permalink: /about/
 includelink: true
 ---
