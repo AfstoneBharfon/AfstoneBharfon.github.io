@@ -1,6 +1,3 @@
-# =============================================
-# Site Settings — Edit these!
-# =============================================
 title:          "Your Name blog"
 description:    "Musings of a Software Engineer."
 url:            "https://afstonebharfon.github.io"
@@ -8,32 +5,19 @@ baseurl:        ""
 author:         "Komla Afoutou"
 email:          "afoutouk@msu.edu"
 
-# Social handles (leave blank to hide)
-github_username:    yourusername
+github_username:    afstonebharfon
 twitter_username:   yourusername
 
-# =============================================
-# Jekyll Build Settings
-# =============================================
 markdown:       kramdown
 highlighter:    rouge
 permalink:      /:year/:month/:day/:title/
 
 kramdown:
-  input:        GFM
-  syntax_highlighter: rouge
+  input: GFM
 
-# =============================================
-# Plugins (all supported by GitHub Pages)
-# =============================================
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
 
-# =============================================
-# Exclude from build
-# =============================================
 exclude:
   - README.md
   - Gemfile
