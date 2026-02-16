@@ -29,7 +29,6 @@ As a graph, this looks like:
 
 Where `[x]`, `[y]`, `[w]`, `[x+y]`, and `[z]` are value nodes, and `[+]` and `[*]` are operation nodes. Both are first-class citizens in the graph — the values aren't just implicit labels on edges, they're nodes that can be reasoned about independently.
 
-This distinction matters more than it might seem.
 
 ## Why Do We Care?
 
